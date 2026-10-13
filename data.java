@@ -21,8 +21,10 @@ class Data{
 
         double numb4 = 56;//prints 56.0
         double numb5 = 12e10; //prints 1.2E11
+        float f = 5.8f;
 
         System.out.println(numb5);
+        System.out.println(f);
 
         char ch = 'a';
         ch++;
