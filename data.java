@@ -30,5 +30,9 @@ class Data{
         ch++;
         System.out.println(ch);
 
+        //literals
+        int numone = 0b101;//should print  5
+        System.out.println(numone);
+        
     }
 }
