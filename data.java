@@ -46,7 +46,14 @@ class Data{
         float f1 = 5.6f;
         int t = (int)f1;
         System.out.println(t);
+        
 
+        byte a2 = 10;
+        byte b2 = 30;
+
+        int result = a*b;
+
+        System.out.println(result);
 
 
     }
