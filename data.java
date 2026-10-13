@@ -74,6 +74,18 @@ class Data{
 
         System.out.println(p1);
 
+        p1 -=2;
+
+        System.out.println(p1);
+
+        p1 *= 2;
+        System.out.println(p1);
+
+        
+
+
+
+
 
 
     }
