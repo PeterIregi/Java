@@ -37,8 +37,15 @@ class Data{
         byte b1 = 125;
         System.out.println(b1);
 
-        int a1 = b1;
+        int a1 = 256;
         System.out.println(a1);
+
+        byte k = (byte)a1;//prints 0 cause it does modulus with the range
+        System.out.println(k);
+
+        float f1 = 5.6f;
+        int t = (int)f1;
+        System.out.println(t);
 
 
 
