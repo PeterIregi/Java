@@ -51,9 +51,29 @@ class Data{
         byte a2 = 10;
         byte b2 = 30;
 
-        int result = a*b;
+        int result = a2*b2;
 
         System.out.println(result);
+
+        
+        int p1 = 7 ;
+        int p2 = 5 ;
+
+        int outcome = p1 + p2;
+        int outcome2 = p1 * p2;
+        int outcome3 = p1 / p2;
+        int outcome4 = p1 % p2;
+
+
+        System.out.println(outcome);
+        System.out.println(outcome2);
+        System.out.println(outcome3);
+        System.out.println(outcome4);
+
+        p1 +=2;
+
+        System.out.println(p1);
+
 
 
     }
