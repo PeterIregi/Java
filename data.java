@@ -31,8 +31,16 @@ class Data{
         System.out.println(ch);
 
         //literals
-        int numone = 0b101;//should print  5
-        System.out.println(numone);
-        
+        int numb = 0b101;//should print  5
+        System.out.println(numb);
+
+        byte b1 = 125;
+        System.out.println(b1);
+
+        int a1 = b1;
+        System.out.println(a1);
+
+
+
     }
 }
