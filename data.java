@@ -82,7 +82,7 @@ class Data{
         System.out.println(p1);
 
         // operators continuation
-        int x = 6;
+        int x = 7;
         int y = 5;
 
         boolean res = x<y;
@@ -104,7 +104,32 @@ class Data{
 
         System.out.println(res3);
 
-        
+
+
+        // logical operators
+
+        int a3 = 5;
+        int b3 = 9;
+
+        boolean outp = x > y && a > b ;
+
+        System.out.println(outp);
+
+        boolean outp1 = x > y && a < b ;
+
+        System.out.println(outp1);
+
+        boolean outp2 = x < y || a < b ;
+
+        System.out.println(outp2);
+
+        boolean outp3 = a<b ;
+
+        System.out.println(!outp3);
+
+
+
+
         
 
 
