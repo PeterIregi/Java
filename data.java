@@ -81,6 +81,30 @@ class Data{
         p1 *= 2;
         System.out.println(p1);
 
+        // operators continuation
+        int x = 6;
+        int y = 5;
+
+        boolean res = x<y;
+        
+
+        System.out.println(res);
+        boolean res1 = x>y;
+        
+
+        System.out.println(res1);
+
+        boolean res2 = x>=y;
+        
+
+        System.out.println(res2);
+
+        boolean res3= x!=y;
+        
+
+        System.out.println(res3);
+
+        
         
 
 
