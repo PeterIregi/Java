@@ -126,7 +126,9 @@ class Data{
         boolean outp3 = a<b ;
 
         System.out.println(!outp3);
-
+    //conditional statements
+        
+         
 
 
 
