@@ -5,5 +5,12 @@ public class Demo{
             System.out.println("Hello");
         else
             System.out.println("Bye");
-    }
+
+        int x1 = 5;
+        int y1 = 7;
+
+        if (x>y)
+            System.out.println(x);
+        else
+            System.out.println(y);
 }
