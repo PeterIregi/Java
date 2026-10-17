@@ -1,3 +1,5 @@
+import java.text.ListFormat.Style;
+
 public class Demo{
     public static void main(String[] args){
         int x = 28;
@@ -23,6 +25,20 @@ public class Demo{
         }else {
             System.out.println(z1);
         }
+
+        //ternary oprators
+        int n = 5;
+        int res1 = 0;
+         if (n%2 ==0){
+            res1 = 10;
+         }else{
+            res1 = 20;
+         }
+         System.out.println(res1);
+
+         int res2 = n%2==0 ? 10 :20 ;
+         System.out.println(res2);
+
     }
 
 }
