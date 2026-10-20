@@ -99,6 +99,16 @@ public class Demo{
         };
 
         System.out.println(res5);
+
+        String res6 = "";
+
+        res6 = switch(day){
+            case "Saturday", "Sunday": yield "6am";
+            case "Monday": yield "8am";
+            default: yield "7am";
+        };
+
+        System.out.println(res6);
          
          
          
