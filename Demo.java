@@ -78,9 +78,27 @@ public class Demo{
             case "Monday" -> System.out.println("8am");
             default -> System.out.println("7am");
         }
+        
+        String res4 = "";
+
+        switch(day){
+            case "Saturday", "Sunday" -> res4 = "6am";
+            case "Monday" -> res4 = "8am";
+            default -> res4 = "7am";
+        }
+        System.out.println(res4);
          
-         
-         
+         //returning without reassigning with every case
+
+        String res5 = "";
+
+        res5 = switch(day){
+            case "Saturday", "Sunday" -> "6am";
+            case "Monday" -> "8am";
+            default -> "7am";
+        };
+
+        System.out.println(res5);
          
          
          
