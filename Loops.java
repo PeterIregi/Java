@@ -16,6 +16,17 @@ public class Loops {
             i++;
         }
         System.out.println("Bye" + i);
+
+
+        // Do while loops
+
+        int i1 = 4;
+
+        do {
+            System.out.println("Hello" + i1);
+            i1++;
+        }while(i1<=4);
+
         
     }
 }
