@@ -2,9 +2,10 @@
 class calc{
 
     int a;
-    public int add(){
+    public int add(int num1, int num2){
         System.out.println("in add");
-        return 0;
+        int r = num1 + num2;
+        return r;
 
     }
 }
@@ -18,7 +19,9 @@ public class Class {
        // int result = num1 + num2;
         // System.out.println(result);
 
-        calc calc;
-        
+        calc calc = new calc();
+        int result = calc.add(num1, num2);
+        System.out.println(result);
+
     }
 }
