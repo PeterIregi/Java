@@ -9,6 +9,15 @@ class calc{
 
     }
 }
+class Computer{
+    public void PlayMusic(){
+        System.out.println("playing music");
+    }
+    public  String getMeAPen(int cost){
+        return "A Pen";
+    }
+
+}
 
 public class Class {
     public static void main(String a []){
@@ -22,6 +31,12 @@ public class Class {
         calc calc = new calc();
         int result = calc.add(num1, num2);
         System.out.println(result);
+
+        Computer comp = new Computer();
+        comp.PlayMusic();
+        String p = comp.getMeAPen(result);
+        System.out.println(p);
+        
 
     }
 }
