@@ -25,13 +25,20 @@ class Computer{
 }
 
 class Calculator{
+
+    int num = 5;
+
+
     public int add(int n1, int n2, int n3){
+        System.out.println(num);
         return n1+n2+n3;
     }
     public int add(int n1, int n2){
+        System.out.println(num);
         return n1+n2;
     }
     public double add(double n1, int n2){
+        System.out.println(num);
         return n1+n2;
     }
 
@@ -58,6 +65,11 @@ public class Class {
         Calculator C = new Calculator();
         int res2 = C.add(10,12);
         System.out.println(res2);
+
+        Calculator D =new Calculator();
+        D.num =10;
+        System.out.println(D.num);
+        System.out.println(C.num);
 
     }
 }
