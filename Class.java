@@ -14,7 +14,12 @@ class Computer{
         System.out.println("playing music");
     }
     public  String getMeAPen(int cost){
-        return "A Pen";
+        if(cost >= 10){
+            return "A pen";
+        }else{
+            return "Nothing";
+        }
+        
     }
 
 }
@@ -36,7 +41,7 @@ public class Class {
         comp.PlayMusic();
         String p = comp.getMeAPen(result);
         System.out.println(p);
-        
+
 
     }
 }
