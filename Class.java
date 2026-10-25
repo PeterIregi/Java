@@ -24,6 +24,12 @@ class Computer{
 
 }
 
+class Calculator{
+    public int add(int n1, int n2){
+        return n1+n2;
+    }
+}
+
 public class Class {
     public static void main(String a []){
 
@@ -42,6 +48,9 @@ public class Class {
         String p = comp.getMeAPen(result);
         System.out.println(p);
 
+        Calculator C = new Calculator();
+        int res2 = C.add(10,12);
+        System.out.println(res2);
 
     }
 }
