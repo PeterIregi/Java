@@ -30,11 +30,34 @@ public class Arrays{
 
         for (int n[]: nums2){
             for (int m : n ){
-                System.out.println(m + " ");
+                System.out.print(m + " ");
             }
             System.out.println();
 
         }
+
+        int nums3[][] = new int[3][];
+
+        nums3[0] = new int[3];
+        nums3[1]= new int[4];
+        nums3[2]= new int[2];
+            //populate the jagged array
+        for (int i = 0; i < nums3.length; i++){
+            for(int j= 0; j< nums3[i].length;j++){
+                nums3[i][j]= (int)(Math.random()*10);
+
+            }
+        }
+        //print the jagged array
+
+        for(int m[]: nums3){
+            for (int o:m){
+                System.out.print(o + " ");
+            }
+            System.out.println();
+        }
+
+
 
     }
 }
