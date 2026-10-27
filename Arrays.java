@@ -28,5 +28,13 @@ public class Arrays{
             System.out.println();
         }
 
+        for (int n[]: nums2){
+            for (int m : n ){
+                System.out.println(m + " ");
+            }
+            System.out.println();
+
+        }
+
     }
 }
