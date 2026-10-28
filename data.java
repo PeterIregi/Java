@@ -111,19 +111,19 @@ class Data{
         int a3 = 5;
         int b3 = 9;
 
-        boolean outp = x > y && a > b ;
+        boolean outp = x > y && a3> b3;
 
         System.out.println(outp);
 
-        boolean outp1 = x > y && a < b ;
+        boolean outp1 = x > y && a3 < b3;
 
         System.out.println(outp1);
 
-        boolean outp2 = x < y || a < b ;
+        boolean outp2 = x < y || a3 < b3 ;
 
         System.out.println(outp2);
 
-        boolean outp3 = a<b ;
+        boolean outp3 = a3<b3 ;
 
         System.out.println(!outp3);
     //conditional statements
