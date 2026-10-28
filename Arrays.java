@@ -56,7 +56,19 @@ public class Arrays{
             }
             System.out.println();
         }
+        int nums4[] = new int[6];
 
+        nums4[0]=4;
+        nums4[1] = 8;
+        nums4[2] = 3;
+        nums4[3] = 9;
+
+        for(int i = 0; i < nums4.length;i++){
+            System.out.println(nums4[i]);
+        }
+        
+
+        
 
 
     }
