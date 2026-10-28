@@ -73,7 +73,11 @@ public class Arrays{
         for(int i = 0; i < nums4.length;i++){
             System.out.println(nums4[i]);
         }
-        
+        //for each loop
+
+        for (int n :nums4){
+            System.out.println(n);
+        }
         Student s1 =  new Student();
         s1.rollno = 1;
         s1.name = "Peter";
@@ -102,7 +106,11 @@ public class Arrays{
         for(int i =0; i<students.length;i++){
             System.out.println(students[i].name + " "  + students[i].marks );
         }
-        
+        //for each loop
+
+        for(Student stud :students){
+            System.out.println(stud.name + " " + stud.marks);
+        }
 
 
     }
