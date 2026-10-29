@@ -5,7 +5,18 @@ public class Demo2{
         System.out.println(name.hashCode());
         System.out.println("Hello" + name );
         System.out.println(name.charAt(1));
-        System.out.println(name.concat(" Iregi"));
+        System.out.println(name.concat(" Iregi"));  
+
+
+        name = name + " Iregi";
+
+        System.out.println(name);
+        
+        String s1 = "Iregi";
+        String s2 ="Iregi";
+
+        System.out.println (s1==s2);
+
 
     }
 }
