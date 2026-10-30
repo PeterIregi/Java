@@ -1,7 +1,7 @@
 class Mobile{
     String brand;
     int price;
-    String name;
+    static String name;
 
     public void show(){
         System.out.println(brand + ": " + price + ": " + name );
@@ -45,13 +45,13 @@ public class Demo2{
         Mobile mob = new Mobile();
         mob.brand = "Apple";
         mob.price = 1500;
-        mob.name = "Iphone 17";
+        Mobile.name = "Smart Phone";
 
 
         Mobile mob1 = new Mobile();
         mob1.brand = "Samsung";
         mob1.price = 1100;
-        mob1.name = "S21 Ultra";
+        
         
 
         mob.show();
