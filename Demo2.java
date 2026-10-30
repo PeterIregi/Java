@@ -24,6 +24,11 @@ public class Demo2{
         System.out.println(sb);
         sb.deleteCharAt(5);
         System.out.println(sb);
+        sb.insert(5, " ");
+        System.out.println(sb);
+        sb.setLength(30);
+        System.out.println(sb);
+        System.out.println(sb.length());
 
     }
 }
