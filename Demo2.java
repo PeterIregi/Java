@@ -7,6 +7,10 @@ class Mobile{
         System.out.println(brand + ": " + price + ": " + name );
 
     }
+    public static  void show1(Mobile obj){
+        System.out.println("in static");
+        System.out.println(obj.brand + ": " + obj.price + ": " + name );
+    }
 }
 
 
@@ -56,5 +60,7 @@ public class Demo2{
 
         mob.show();
         mob1.show();
+
+        Mobile.show1();
     }
 }
