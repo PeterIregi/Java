@@ -3,12 +3,24 @@ class Mobile{
     int price;
     static String name;
 
+    static{
+        name = "phone";
+        System.out.println("In static block");
+
+    }
+    public Mobile(){
+        brand ="";
+        price = 200;
+        System.out.println("In constructor");
+
+    }
+
     public void show(){
         System.out.println(brand + ": " + price + ": " + name );
 
     }
     public static  void show1(Mobile obj){
-        System.out.println("in static");
+    
         System.out.println(obj.brand + ": " + obj.price + ": " + name );
     }
 }
@@ -61,6 +73,6 @@ public class Demo2{
         mob.show();
         mob1.show();
 
-        Mobile.show1();
+        Mobile.show1(mob1);
     }
 }
