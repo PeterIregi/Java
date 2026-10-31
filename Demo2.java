@@ -24,7 +24,26 @@ class Mobile{
         System.out.println(obj.brand + ": " + obj.price + ": " + name );
     }
 }
+class Human{
+    private int age = 13;
+    private String name = "Peter";
 
+    public String getName(){
+        return name;
+    }
+    public void setname(String n){
+        name =n;
+    }
+    public int getage(){
+        return age;
+    }
+    public void setAge(int a){
+        age = a;
+    }
+
+
+
+}
 
 public class Demo2{
     public static void main(String a[]){
@@ -74,5 +93,10 @@ public class Demo2{
         mob1.show();
 
         Mobile.show1(mob1);
+
+        Human p1 = new Human();
+      
+
+        System.out.println(p1.getName());
     }
 }
