@@ -33,6 +33,10 @@ class Human{
         name = "Peter";
         age = 13;
     }
+    public Human(int a, String n){
+        name = n;
+        age = a;
+    }
 
     public String getName(){
         return name;
@@ -104,5 +108,11 @@ public class Demo2{
       
 
         System.out.println(p1.getName());
+
+        Human p2 =new Human();
+        Human p3 = new Human(18, "Damian");
+        System.out.println(p2.getName());
+        System.out.println(p3.getName());
+
     }
 }
