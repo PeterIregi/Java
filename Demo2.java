@@ -25,8 +25,14 @@ class Mobile{
     }
 }
 class Human{
-    private int age = 13;
-    private String name = "Peter";
+    private int age ;
+    private String name ;
+
+    public Human(){
+        System.out.println("In Constructor");
+        name = "Peter";
+        age = 13;
+    }
 
     public String getName(){
         return name;
