@@ -55,6 +55,16 @@ class Human{
 
 }
 
+class A
+{
+    public A(){
+        System.out.println("Object created");
+    }
+    public void Show(){
+        System.out.println("in A Show");
+    }
+}
+
 public class Demo2{
     public static void main(String a[]){
         String name = new String("Peter");
@@ -113,6 +123,9 @@ public class Demo2{
         Human p3 = new Human(18, "Damian");
         System.out.println(p2.getName());
         System.out.println(p3.getName());
+
+        A obj = new A();
+        obj.Show();
 
     }
 }
