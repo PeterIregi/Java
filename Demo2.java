@@ -142,5 +142,14 @@ public class Demo2{
         int r2 = c.sub(7,3);
 
         System.out.println(r1 +" " + r2);
+
+
+        AdvCalc ac = new AdvCalc();
+        int r3 = ac.add(4,5);
+        int r4 = ac.sub(7,3);
+        int r5 = ac.mult(5,3);
+        int r6 = ac.div(15,4);
+
+        System.out.println(r3 +" "+r4+" "+r5+" "+r6);
     }
 }
