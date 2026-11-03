@@ -126,6 +126,9 @@ public class Demo2{
 
         A obj = new A();
         obj.Show();
+        //object creation
+        new A().Show();//anonymus object 
+
 
     }
 }
