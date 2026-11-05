@@ -64,6 +64,12 @@ class A
         System.out.println("in A Show");
     }
 }
+class B extends A{
+
+}
+class C extends B{
+
+}
 class calc2{
     public int add(int n1, int n2){
         return n1 + n2;
