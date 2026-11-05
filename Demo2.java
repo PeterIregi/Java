@@ -148,8 +148,17 @@ public class Demo2{
         int r3 = ac.add(4,5);
         int r4 = ac.sub(7,3);
         int r5 = ac.mult(5,3);
-        int r6 = ac.div(15,4);
+        int r6 = ac.div(15,4); 
 
         System.out.println(r3 +" "+r4+" "+r5+" "+r6);
+
+        VeryAdvCalc ad = new VeryAdvCalc();
+        int r7 = ad.add(4,5);
+        int r8 = ad.sub(7,3);
+        int r9 = ad.mult(5,3);
+        int r10 = ad.div(15,4); 
+        double r11 = ad.power(4,2);
+
+        System.out.println(r7+" "+r8+" "+r9+" "+r10 +" "+r11);
     }
 }
