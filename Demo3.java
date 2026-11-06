@@ -10,7 +10,7 @@ class A{
 }
 class B extends A{
     public B(){
-        super();
+        super(5);
         System.out.println("in B");
     }
     public B(int a){
