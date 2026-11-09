@@ -7,6 +7,9 @@ class A{
         super();
         System.out.println("In A int");
     }
+    public void show(){
+        System.out.println("in show");
+    }
 }
 class B extends A{
     public B(){
