@@ -10,6 +10,9 @@ class A{
     public void show(){
         System.out.println("in show");
     }
+    public void config(){
+        System.out.println("In config");
+    }
 }
 class B extends A{
     public B(){
@@ -27,6 +30,10 @@ public class Demo3 {
         B obj = new B();
         B obj1= new B(5);
 
+
+        obj1.show();
+        obj1.config();
+        
     }
     
 }
