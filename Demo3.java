@@ -8,10 +8,10 @@ class A{
         System.out.println("In A int");
     }
     public void show(){
-        System.out.println("in show");
+        System.out.println("in  A show");
     }
     public void config(){
-        System.out.println("In config");
+        System.out.println("In A config");
     }
 }
 class B extends A{
@@ -23,7 +23,11 @@ class B extends A{
         this();
         System.out.println("in B int");
     }
+    public void show(){
+        System.out.println("in B show");
+    }
 }
+
 
 public class Demo3 {
     public static void main(String a[]){
@@ -32,7 +36,7 @@ public class Demo3 {
 
 
         obj1.show();
-        obj1.config();
+        obj.config();
         
     }
     
